@@ -1,7 +1,6 @@
 from binary import tobin
 
-#file = input('File to convert(incl. extension):\n')
-file = 'main.py'
+file = input('File to convert(incl. extension):\n')
 
 f = open(file,'r')
 
