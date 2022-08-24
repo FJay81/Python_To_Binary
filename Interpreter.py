@@ -29,8 +29,11 @@ f = open(temp,'w')
 f.write(final)
 f.close()
 
-system('python3 ' + temp)
 
-# f = open(temp,'w')
-# f.write('')
-# f.close()
+#both of these run the file, up to user which one they use
+system('python3 ' + temp)
+#import temp 
+
+f = open(temp,'w')
+f.write('')
+f.close()
