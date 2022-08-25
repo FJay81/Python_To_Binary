@@ -1,4 +1,3 @@
-from os import system
 
 from binary import tostr
 
@@ -30,9 +29,7 @@ f.write(final)
 f.close()
 
 
-#both of these run the file, up to user which one they use
-system('python3 ' + tempPy)
-#import temp 
+import temp 
 
 f = open(tempPy,'w')
 f.write('')
