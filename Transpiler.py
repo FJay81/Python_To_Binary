@@ -1,5 +1,3 @@
-from os import system
-
 from binary import tostr
 
 file = input('File to run(Ends in \'.binstr\'):\n')
