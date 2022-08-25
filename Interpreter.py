@@ -23,17 +23,17 @@ content_list.remove('')
 
 final = tostr(content_list)
 
-temp = 'temp.py'
+tempPy = 'temp.py'
 
-f = open(temp,'w')
+f = open(tempPy,'w')
 f.write(final)
 f.close()
 
 
 #both of these run the file, up to user which one they use
-system('python3 ' + temp)
+system('python3 ' + tempPy)
 #import temp 
 
-f = open(temp,'w')
+f = open(tempPy,'w')
 f.write('')
 f.close()
